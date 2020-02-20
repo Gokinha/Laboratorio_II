@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentacao", "0 - Apresentacao", "{3D093A6A-8F67-46B4-8CBA-8551685F1430}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Dominio", "1 - Dominio", "{E2F2215F-34AA-4815-B018-56299E0FB9B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Servico", "2 - Servico", "{E80A036E-1B19-4485-A555-64D0E2CFF4B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{18998520-DFD9-4F95-BBBF-C8F1733029F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Comum", "4 - Comum", "{694C802C-5D74-4903-BAEB-D41FE6BFC7EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyToken.Dominio", "MyToken.Dominio\MyToken.Dominio.csproj", "{A2BDB24E-3B9F-4E6E-B28D-495FAFC30863}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2BDB24E-3B9F-4E6E-B28D-495FAFC30863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BDB24E-3B9F-4E6E-B28D-495FAFC30863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BDB24E-3B9F-4E6E-B28D-495FAFC30863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BDB24E-3B9F-4E6E-B28D-495FAFC30863}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2BDB24E-3B9F-4E6E-B28D-495FAFC30863} = {E2F2215F-34AA-4815-B018-56299E0FB9B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF3B603B-1FC3-472C-A31A-CC60F045587A}
+	EndGlobalSection
+EndGlobal
